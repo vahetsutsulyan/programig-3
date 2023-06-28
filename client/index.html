@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style>
+        .button {
+            background-color: #4CAF50;
+
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button2 {
+            background-color: #1ad814;
+        }
+
+
+        .button3 {
+            background-color: #aae917;
+        }
+
+
+        .button4 {
+            background-color: #db5050;
+            color: black;
+        }
+
+
+        .button5 {
+            background-color: #f3f0f0;
+        }
+
+        .button6 {
+            background-color: #080101;
+        }
+    </style>
+
+
+
+
+    <meta charset="utf8">
+
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./pure-snow.js" defer></script>
+</head>
+
+<body>
+    <div id="snow" count="200"></div>
+    <h2>ԵՂԱՆԱԿՆԵՐ</h2>
+    <p id="demo">ՍԵՂՄԵՔ ԵՂԱՆԱԿՆԵՐԻՑ ՄԵԿԻՆ</p>
+    <div>
+        <button id="garun" class="button button2" onclick="displayDate()">ԳԱՐՈՒՆ</button>
+        <button id="amar" class="button button3" onclick="displayDate()">ԱՄԱՌ</button>
+        <button id="ashun" class="button button4" onclick="displayDate()">ԱՇՈՒՆ</button>
+        <button id="dzmer" class="button button5" onclick="displayDate()">ՁՄԵՌ</button>
+        <button id="ToggleSnow" class="button button6" onclick="showSnow(this.checked = !this.checked )">ՁՅՈՒՆ</button>
+
+
+
+    </div>
+    <div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+
+        <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+
+        <script type="text/javascript" src="script.js"></script>
+
+    </div>
+</body>
+
+</html>
